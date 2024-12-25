@@ -9,4 +9,4 @@ n = int(input().strip())
 if is_pseudo_binary(n):
     print(1)
 else:
-    print(0)
+    print(0)   
