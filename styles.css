@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  padding: 2rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+.hidden { display: none; }
+button {
+  margin: 0.5rem;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.buttons button {
+  width: 120px;
+}
+#messageBox {
+  text-align: left;
+  background: #fafafa;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  height: 150px;
+  overflow-y: auto;
+}
+#feedback {
+  margin-top: 1rem;
+  font-weight: bold;
+}
