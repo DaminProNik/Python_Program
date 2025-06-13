@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhishHunter | شکارچی فیشینگ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>PhishHunter 🛡️</h1>
+    <p>آزمون تشخیص پیام فیشینگ</p>
+    <button id="start">شروع تست</button>
+    <div id="quiz" class="hidden">
+      <pre id="messageBox"></pre>
+      <div class="buttons">
+        <button id="real">واقعیه</button>
+        <button id="phish">فیشینگه</button>
+      </div>
+      <p id="feedback"></p>
+      <p>امتیاز: <span id="score">0</span></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
